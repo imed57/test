@@ -24,18 +24,6 @@ const TreasuryDashboard = memo(() => {
           paddingRight: isSmallScreen || isVerySmallScreen ? "0" : "3.3rem",
         }}
       >
-        <Box className="hero-metrics">
-          <Paper className="ohm-card">
-            <Box display="flex" flexWrap="wrap" justifyContent="space-between" alignItems="center">
-              <MarketCap />
-              <FIREFLYPrice />
-              <NextRebase />
-              <CircSupply />
-              <BackingPerFIREFLY />
-              <AverageFIREFLYHolding />
-            </Box>
-          </Paper>
-        </Box>
 
         <Zoom in={true}>
           <Grid container spacing={8} className="data-grid">
