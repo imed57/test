@@ -90,15 +90,7 @@ function App() {
   };
 
   async function loadDetails(whichDetails: string, tronWeb) {
-    if (connected) {
-      if (whichDetails === "app") {
-        dispatch(loadAppDetails({ provider: tronWeb }));
-      }
 
-      if (whichDetails === "account" && address) {
-        dispatch(loadAccountDetails({ address, provider: tronWeb }));
-      }
-    }
   }
 
   useEffect(() => {
