@@ -1,0 +1,27 @@
+//{
+//  "short_name": "Medusa",
+//  "start_url": ".",
+//  "homepage": "./",
+//  "name": "Medusa",
+//  "launch_path": "/public/index.html",
+//  "icons": [
+//    {
+//      "src": "logo.png",
+//      "sizes": "64x64 32x32 24x24 16x16",
+//      "type": "image/x-icon"
+//    },
+//    {
+//      "src": "logo.png",
+//      "type": "image/png",
+//      "sizes": "192x192"
+//    },
+//    {
+//      "src": "logo.png",
+//      "type": "image/png",
+//      "sizes": "512x512"
+//    }
+//  ],
+//  "display": "browser",
+//  "theme_color": "#000000",
+//  "background_color": "#ffffff"
+//}
