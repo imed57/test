@@ -144,9 +144,9 @@
     "typechain": "^6.0.2"
   },
   "scripts": {
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "test": "react-scripts test",
     "test:unit": "react-scripts test --testPathPattern=\"(\\.|/|-)unit\\.(test|spec)\\.[jt]sx?$\" --watchAll=false --bail --ci --coverage --maxWorkers=50% --forceExit",
     "test:e2e": "react-scripts test --testPathPattern=\"(\\.|/|-)e2e\\.(test|spec)\\.[jt]sx?$\" --watchAll=false --bail --ci --forceExit",
